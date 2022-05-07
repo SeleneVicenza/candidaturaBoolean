@@ -1,0 +1,90 @@
+*{
+  margin: auto;
+  box-sizing: content-box;
+  font-family: 'Quicksand', sans-serif;
+
+}
+
+body{
+  background-image: image("background.jpg");
+  background-image: url("background.jpg");
+  background-size: cover;
+}
+
+.contenitore{
+  width: 80%;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 12px;
+}
+
+
+nav, header, main{
+  opacity: 1;
+  width: 75%;
+}
+
+header{
+  text-align: center;
+}
+
+nav{
+  text-align: center;
+  padding: 10px;
+  background-color: #00dd00;
+  border-radius: 8px;
+}
+
+
+
+.logo{
+  width: 30%;
+  height: auto;
+}
+
+.logoText{
+  color: #00dd00;
+  font-size: 30px;
+}
+
+
+.monopattino{
+  color: white;
+}
+
+.monopattino div{
+  display: inline-block;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.nomeMonop:before{
+  content: "\220E ";
+}
+
+.via:before{
+  content: "\21A6 ";
+}
+
+.distanza:before {
+  content: "-";
+}
+
+.via, .distanza, .carica{
+  font-size: 120%;
+}
+
+
+#gino{
+  background-color: #f5b453;
+  width: 45%;
+}
+
+#mike{
+  background-color: #1ec31e;
+  width: 75%;
+}
+
+#fede{
+  background-color: #be4141;
+  width: 25%;
+}
